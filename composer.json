@@ -1,0 +1,34 @@
+{
+    "name": "sunnysideup/random-images",
+    "type": "silverstripe-vendormodule",
+    "description": "Use a random selection of images on your site, based on a folder in assets/",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "images",
+        "image",
+        "random",
+        "looks awesome",
+        "folder",
+        "front-end",
+        "pictures"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~4.0",
+        "silverstripe/recipe-cms": "*"
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    }
+}
